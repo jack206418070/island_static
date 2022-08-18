@@ -1,0 +1,14 @@
+header {
+  height: 78px;
+  @media (max-width: 768px) {
+    height: 55px;
+  }
+  .logo {
+    img {
+      height: 40px;
+      @media (max-width: 768px) {
+        height: 20px;
+      }
+    }
+  }
+}
