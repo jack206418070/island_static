@@ -293,7 +293,7 @@ header .toggle:before {
 }
 
 .search input[type="date"] {
-  padding: 10px 8px;
+  padding: 10px 0px;
   color: #000 !important;
   text-align: left !important;
 }
