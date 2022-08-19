@@ -64,7 +64,7 @@ input, select {
 input[type="date"] {
   padding: 10px 8px;
   color: #000 !important;
-  text-align: center;
+  text-align: left !important;
 }
 a {
   text-decoration: none;
@@ -264,7 +264,6 @@ header {
   select {
     width: 70px;
     color: #000;
-    text-align: center !important;
   }
   .select {
     position: relative;
@@ -277,7 +276,7 @@ header {
       border-width: 6px 3px 0 3px;
       border-color: #000 transparent transparent transparent;
       top: 50%;
-      right: 1%;
+      right: 3%;
       transform: translate(-50%, -50%);
     }
   }
