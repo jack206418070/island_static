@@ -540,4 +540,33 @@ footer a {
 .btn-group a:last-child:hover {
   background-color: #eab300;
 }
+
+footer .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer p {
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+footer a {
+  display: block;
+  margin-bottom: 6px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+footer a:last-child {
+  margin-bottom: 0;
+}
 /*# sourceMappingURL=all.css.map */
