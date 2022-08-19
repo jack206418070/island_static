@@ -70,6 +70,11 @@ input, select {
   /* FireFox */
   appearance: none;
   border: 1px solid #000;
+  background: none;
+}
+
+input[type="date"] {
+  padding: 10px 8px;
 }
 
 a {
@@ -360,6 +365,7 @@ header .toggle:before {
 
 .search select {
   width: 70px;
+  color: #000;
 }
 
 .search .select {
@@ -391,15 +397,17 @@ header .toggle:before {
 
 @media (max-width: 768px) {
   .search .form-control {
-    width: 100%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    width: 70%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-bottom: 16px;
   }
 }
 
 .search .btn-search {
+  width: 31%;
+  text-align: center;
   background-color: #00a458;
   font-size: 16px;
   padding: 8px 20px;
