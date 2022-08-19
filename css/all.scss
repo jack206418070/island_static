@@ -155,6 +155,11 @@ header {
   background-color: #fff;
   left: -200%;
   transition: left .5s;
+  @media (max-width: 768px) {
+    &.show {
+      left: 0;
+    }
+  }
   li {
     margin-bottom: 30px;
   }
@@ -162,9 +167,6 @@ header {
     font-weight: 400;
     font-size: 20px;
     display: block;
-  }
-  &.show {
-    left: 0;
   }
 }
 .banner {

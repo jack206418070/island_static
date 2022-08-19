@@ -204,6 +204,12 @@ header .toggle:before {
   transition: left .5s;
 }
 
+@media (max-width: 768px) {
+  .side-menu.show {
+    left: 0;
+  }
+}
+
 .side-menu li {
   margin-bottom: 30px;
 }
@@ -212,10 +218,6 @@ header .toggle:before {
   font-weight: 400;
   font-size: 20px;
   display: block;
-}
-
-.side-menu.show {
-  left: 0;
 }
 
 .banner {
