@@ -53,6 +53,13 @@ body {
   font-family: Microsoft JhengHei;
   line-height: 1.2;
 }
+
+input, select {
+  -webkit-appearance: none;  /* Safari 和 Chrome，常用於iOS下移除內建樣式 */
+  -moz-appearance: none;     /* FireFox */
+  appearance: none;
+  border: 1px solid #000;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -246,6 +253,24 @@ header {
       &:focus {
         outline: 0;
       }
+    }
+  }
+  select {
+    width: 70px;
+  }
+  .select {
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 10px 5px 0 5px;
+      border-color: #000 transparent transparent transparent;
+      top: 50%;
+      right: 0%;
+      transform: translate(-50%, -50%);
     }
   }
   .form-control {
