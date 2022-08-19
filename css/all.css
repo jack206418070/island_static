@@ -408,7 +408,6 @@ header .toggle:before {
 }
 
 .search .btn-search {
-  width: 31%;
   text-align: center;
   background-color: #00a458;
   font-size: 16px;
@@ -417,6 +416,12 @@ header .toggle:before {
   letter-spacing: 1.3px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+@media (max-width: 768px) {
+  .search .btn-search {
+    width: 31%;
+  }
 }
 
 .search .btn-search:hover {
