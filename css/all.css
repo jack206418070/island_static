@@ -75,7 +75,8 @@ input, select {
 
 input[type="date"] {
   padding: 10px 8px;
-  color: #000;
+  color: #000 !important;
+  text-align: center;
 }
 
 a {
@@ -367,6 +368,7 @@ header .toggle:before {
 .search select {
   width: 70px;
   color: #000;
+  text-align: center;
 }
 
 .search .select {
