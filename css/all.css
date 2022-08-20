@@ -195,6 +195,7 @@ header .toggle:before {
 .side-menu {
   position: fixed;
   left: 0;
+  z-index: 99;
   top: 78px;
   width: 50%;
   height: 100vh;
